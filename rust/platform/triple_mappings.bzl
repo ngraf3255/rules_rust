@@ -290,7 +290,7 @@ def cpu_arch_to_constraints(cpu_arch, *, system = None, abi = None):
     Args:
         cpu_arch (str): The architecture to match constraints for
         system (str, optional): The system for the associated ABI value.
-        abi (str): The application binary interface required for the target platform
+        abi (str, optional): The application binary interface required for the target platform
 
     Returns:
         List: A list of labels to constraint values
